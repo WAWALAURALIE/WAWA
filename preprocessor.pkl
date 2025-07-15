@@ -1,0 +1,5 @@
+import pickle
+
+# Supposons que `preprocessor` est votre objet ColumnTransformer
+with open('preprocessor.pkl', 'wb') as file:
+    pickle.dump(preprocessor, file)
